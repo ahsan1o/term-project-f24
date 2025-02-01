@@ -30,5 +30,5 @@ jobs:
             - name: deploy the build artifacts on github pages
               uses: actions/deploy-pages@v4
               with:
-                  artifact_name: "develop-artifact"
+                  artifact_name: "production-artifact"
                   token: ${{ secrets.GITHUB_TOKEN }}
